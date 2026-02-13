@@ -1,6 +1,6 @@
-/* PS4 Custom Overlay - Complete Overhaul */
+/* PS4 Custom Overlay - Final Verified Version */
 
-/* 1. Hide the default images so they don't block yours */
+/* 1. Reset default styles to make room for your custom camo skin */
 .controller.ds4.white, 
 .ds4.white .trigger, 
 .ds4.white .bumper, 
@@ -8,38 +8,47 @@
 .ds4.white .face, 
 .ds4.white .button {
     background-color: transparent !important;
-    background-fill: none !important;
+    background-image: none !important;
 }
 
-/* 2. Apply your custom assets */
+/* 2. Apply your custom assets from Dani1307.github.io */
+
+/* The Base (Body of the controller) */
 .controller.ds4.white {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.jpg) !important;
 }
 
+/* The Disconnected Screen */
 .ds4.white.disconnected {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdisconnected.jpg) !important;
 }
 
+/* L2 and R2 Triggers */
 .ds4.white .trigger {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png) !important;
 }
 
+/* L1 and R1 Bumpers */
 .ds4.white .bumper {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png) !important;
 }
 
+/* Options and Share Buttons */
 .ds4.white .back, .ds4.white .start {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZstart.png) !important;
 }
 
+/* X, O, Square, Triangle */
 .ds4.white .button {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/Fzface.png) !important;
 }
 
+/* Analog Sticks */
 .ds4.white .stick {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZsticks.png) !important;
 }
 
+/* D-Pad Arrows */
 .ds4.white .face {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdpad.png) !important;
 }
