@@ -1,56 +1,47 @@
-/* PS4 Custom Overlay - Camo Only (No White/Red Default) */
+/* PS4 Custom Overlay - Alignment & Scaling Fix */
 
-/* 1. Remove the default PS4 skin images completely */
-.ds4.white {
-    background-image: none !important;
-}
-
-.ds4.white .trigger,
-.ds4.white .bumper,
-.ds4.white .stick,
-.ds4.white .face,
-.ds4.white .button {
-    background-image: none !important;
-}
-
-/* 2. Apply your custom assets from GitHub */
-
-/* Base Camo Body */
+/* 1. Reset and Center the Base */
 .controller.ds4.white {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 800px; /* Adjust based on your image width */
+    height: 500px; /* Adjust based on your image height */
 }
 
-/* Disconnected View */
-.ds4.white.disconnected {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdisconnected.jpg) !important;
-}
-
-/* Triggers (L2/R2) */
-.ds4.white .trigger {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png) !important;
-}
-
-/* Bumpers (L1/R1) */
+/* 2. Fix Button Positioning */
+/* This prevents buttons from stacking on the left */
+.ds4.white .button, 
+.ds4.white .stick, 
+.ds4.white .face, 
+.ds4.white .trigger, 
 .ds4.white .bumper {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png) !important;
+    background-repeat: no-repeat !important;
 }
 
-/* Start/Share */
-.ds4.white .back, .ds4.white .start {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZstart.png) !important;
-}
-
-/* Face Buttons (X, O, etc.) */
+/* Face Buttons (X, O, Square, Triangle) */
 .ds4.white .button {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/Fzface.png) !important;
 }
 
-/* Sticks */
+/* Analog Sticks */
 .ds4.white .stick {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZsticks.png) !important;
 }
 
-/* D-Pad Arrows */
+/* D-Pad */
 .ds4.white .face {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdpad.png) !important;
 }
+
+/* Triggers & Bumpers */
+.ds4.white .trigger {
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png) !important;
+}
+.ds4.white .bumper {
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png) !important;
+}
+
+/* Hide original White Skin parts that might be leaking through */
+.ds4.white { background-color: transparent !important; }
