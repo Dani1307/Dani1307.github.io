@@ -1,34 +1,35 @@
 /*BEGIN PS4 White Controller Styling*/
 .controller.ds4.white {
-    background-image: url(FZbase.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.jpg);
 }
 
 .ds4.white.disconnected {
-    background: url(FZdisconnected.png);
+    background: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdisconnected.jpg);
 }
 
 .ds4.white .trigger {
-    background-image: url(FZtriggers.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png);
 }
 
 .ds4.white .bumper {
-    background-image: url(FZbumper.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png);
 }
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(FZstart.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZstart.png);
 }
 
 .ds4.white .button {
-    background-image: url(Fzface.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/Fzface.png);
 }
 
 .ds4.white .stick {
-    background-image: url(FZsticks.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZsticks.png);
 }
 
 .ds4.white .face {
-    background-image: url(FZdpad.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdpad.png);
 }
 
 /*END PS4 White Controller Styling*/
+
