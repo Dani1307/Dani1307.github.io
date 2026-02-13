@@ -1,36 +1,33 @@
-/*BEGIN PS4 White Controller Styling*/
+/* PS4 Custom Overlay - Final Verified Version */
+
 .controller.ds4.white {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.jpg) !important;
 }
 
 .ds4.white.disconnected {
-    background: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdisconnected.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdisconnected.jpg) !important;
 }
 
 .ds4.white .trigger {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZtriggers.png) !important;
 }
 
 .ds4.white .bumper {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbumper.png) !important;
 }
 
-.ds4.white .back, .ds4 .start {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZstart.png);
+.ds4.white .back, .ds4.white .start {
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZstart.png) !important;
 }
 
 .ds4.white .button {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/Fzface.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/Fzface.png) !important;
 }
 
 .ds4.white .stick {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZsticks.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZsticks.png) !important;
 }
 
 .ds4.white .face {
-    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdpad.png);
+    background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZdpad.png) !important;
 }
-
-/*END PS4 White Controller Styling*/
-
-
