@@ -1,5 +1,17 @@
-/* PS4 Custom Overlay - Final Verified Version */
+/* PS4 Custom Overlay - Complete Overhaul */
 
+/* 1. Hide the default images so they don't block yours */
+.controller.ds4.white, 
+.ds4.white .trigger, 
+.ds4.white .bumper, 
+.ds4.white .stick, 
+.ds4.white .face, 
+.ds4.white .button {
+    background-color: transparent !important;
+    background-fill: none !important;
+}
+
+/* 2. Apply your custom assets */
 .controller.ds4.white {
     background-image: url(https://raw.githubusercontent.com/Dani1307/Dani1307.github.io/main/FZbase.jpg) !important;
 }
